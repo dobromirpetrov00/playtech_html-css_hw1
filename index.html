@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>HTML_CSS</title>
+  </head>
+  <body>
+    <div class="all-wrap">
+      <header>
+        <h1 class="head-title">ROBOT FACTORY</h1>
+        <a href="https://www.playtech.com/" target="_blank">
+          <img alt="" class="img-logo" src="playtech_logo.JPG" />
+        </a>
+      </header>
+      <section id="slide-1" class="factory-section">
+        <div class="head-text">
+          <h2>Basic Robot</h2>
+          <div class="triangle"></div>
+        </div>
+        <div class="content-wrapper">
+          <div class="outer-content">
+            <div class="rhead"></div>
+            <div class="rleye"></div>
+            <div class="rreye"></div>
+            <div class="rmouth"></div>
+            <div class="rbody"></div>
+            <div class="rlarm"></div>
+            <div class="rrarm"></div>
+            <div class="rlleg"></div>
+            <div class="rrleg"></div>
+            <div class="rname">Robot name</div>
+          </div>
+          <div class="inner-content">
+            <div class="text-1">
+              <span class="text1-anim tooltip">
+                <!-- <p> -->
+                <b>P</b>aragraph text here. Text-align on left, 3% space from
+                right border. Text is only 2 lines and end with three dots...
+                <!-- </p> -->
+                <span class="tooltiptext">
+                  <b>P</b>aragraph text here. Text-align on left, 3% space from
+                  right border. Text is only 2 lines and end with three dots...
+                  because it too long. <br />On hover full text is shown as
+                  tooltip. First letter is bold.
+                </span>
+              </span>
+            </div>
+            <div class="text-2">
+              <span class="text2-anim tooltip">
+                <!-- <p> -->
+                <i>Paragraph</i> text here. Text justified, 6% space from right
+                border. <br />Text is only 2 lines and ends with three dots...
+                <!-- </p> -->
+                <span class="tooltiptext">
+                  <i>Paragraph</i> text here. Text justified, 6% space from
+                  right border. <br />Text is only 2 lines and ends with three
+                  dots... because it too long. <br />On hover full text is
+                  shown. First word is <i>Italic</i>.
+                </span>
+              </span>
+            </div>
+            <div class="text-3">
+              <span class="img3">
+                <img class="img3-img" alt="" src="google_logo.png" />
+              </span>
+              <span class="text3">
+                <span class="text3-anim">
+                  Paragraph text here. Text-align on left, 9% from right border.
+                  Image on left side.
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <div class="form-head"><h6>Create Robot</h6></div>
+        <hr class="lineBar" />
+        <form class="form-form">
+          <span class="form-name">
+            Name<br />
+            <input class="form-name-2" type="text" placeholder="Robot name" />
+          </span>
+          <span class="form-select">
+            Select type<br />
+            <select class="form-select-2">
+              <optgroup label="Choose type:">
+                <option>Basic Robot</option>
+                <option>Small Robot</option>
+              </optgroup>
+            </select>
+          </span>
+          <span class="form-color">
+            Select Color<br />
+            <input class="form-color-2" type="color" value="#e96126" />
+          </span>
+          <span class="form-checkbox">
+            Select Options<br />
+            <input type="checkbox" id="ch1" />
+            <label for="ch1">can jump</label><br />
+            <input type="checkbox" id="ch2" />
+            <label for="ch2">can talk</label><br />
+            <input type="checkbox" id="ch3" />
+            <label for="ch3">can blink</label>
+          </span>
+          <span class="form-writeCom">
+            Write Comments<br />
+            <textarea class="form-textarea"></textarea>
+          </span>
+          <span class="form-create-but"
+            ><input class="form-create-but-but" value="Create" type="button"
+          /></span>
+          <span class="form-show-created-but">
+            <input
+              class="form-show-created-but-but"
+              value="Show Created Robots"
+              type="button"
+            />
+          </span>
+        </form>
+        <hr class="lineBar" />
+      </section>
+    </div>
+  </body>
+</html>
